@@ -5,10 +5,11 @@
 <p>Preview SwiftUI Font styles easily right on your iPhone !</p>
 <br>
 <b>Project specifications:</b>
-- Swift 5
-- SwiftUI
-- Optimized for Xcode 11
-
+<ul>
+<li>Swift 5</li>
+<li>SwiftUI</li>
+<li>Optimised for Xcode 11</li>
+</ul>
 <p align="center">
       <img src="https://github.com/TParizek/SwiftUI-Fonts-Previewer/raw/master/Github%20Readme%20Resources/AppPreview.png">
 </p>
