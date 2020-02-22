@@ -13,10 +13,12 @@
 		6BDFB0892401209C0029915B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BDFB0882401209C0029915B /* Assets.xcassets */; };
 		6BDFB08C2401209C0029915B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BDFB08B2401209C0029915B /* Preview Assets.xcassets */; };
 		6BDFB08F2401209C0029915B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BDFB08D2401209C0029915B /* LaunchScreen.storyboard */; };
+		6BDFB097240120C80029915B /* FontRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDFB096240120C80029915B /* FontRowView.swift */; };
+		6BDFB099240122940029915B /* SwiftUIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDFB098240122940029915B /* SwiftUIFont.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6BDFB07F2401209C0029915B /* SwiftUIFonts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIFonts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BDFB07F2401209C0029915B /* SwiftUI Fonts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Fonts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BDFB0822401209C0029915B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6BDFB0842401209C0029915B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		6BDFB0862401209C0029915B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -24,6 +26,8 @@
 		6BDFB08B2401209C0029915B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6BDFB08E2401209C0029915B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6BDFB0902401209C0029915B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BDFB096240120C80029915B /* FontRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontRowView.swift; sourceTree = "<group>"; };
+		6BDFB098240122940029915B /* SwiftUIFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIFont.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +52,7 @@
 		6BDFB0802401209C0029915B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6BDFB07F2401209C0029915B /* SwiftUIFonts.app */,
+				6BDFB07F2401209C0029915B /* SwiftUI Fonts.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -59,6 +63,8 @@
 				6BDFB0822401209C0029915B /* AppDelegate.swift */,
 				6BDFB0842401209C0029915B /* SceneDelegate.swift */,
 				6BDFB0862401209C0029915B /* ContentView.swift */,
+				6BDFB096240120C80029915B /* FontRowView.swift */,
+				6BDFB098240122940029915B /* SwiftUIFont.swift */,
 				6BDFB0882401209C0029915B /* Assets.xcassets */,
 				6BDFB08D2401209C0029915B /* LaunchScreen.storyboard */,
 				6BDFB0902401209C0029915B /* Info.plist */,
@@ -92,7 +98,7 @@
 			);
 			name = SwiftUIFonts;
 			productName = SwiftUIFonts;
-			productReference = 6BDFB07F2401209C0029915B /* SwiftUIFonts.app */;
+			productReference = 6BDFB07F2401209C0029915B /* SwiftUI Fonts.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -148,7 +154,9 @@
 			files = (
 				6BDFB0832401209C0029915B /* AppDelegate.swift in Sources */,
 				6BDFB0852401209C0029915B /* SceneDelegate.swift in Sources */,
+				6BDFB099240122940029915B /* SwiftUIFont.swift in Sources */,
 				6BDFB0872401209C0029915B /* ContentView.swift in Sources */,
+				6BDFB097240120C80029915B /* FontRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,14 +297,16 @@
 				DEVELOPMENT_TEAM = 63J4U5TSTJ;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftUIFonts/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tomasparizek.SwiftUIFonts;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "SwiftUI Fonts";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -309,14 +319,16 @@
 				DEVELOPMENT_TEAM = 63J4U5TSTJ;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftUIFonts/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tomasparizek.SwiftUIFonts;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "SwiftUI Fonts";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
